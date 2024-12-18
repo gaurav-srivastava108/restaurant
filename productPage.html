@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <link rel="stylesheet" href="./Product.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./payment.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+  <script
+    src="https://kit.fontawesome.com/7a4b62b0a4.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <nav>
+      <div class="navigation container">
+        <div class="logo_container">
+          <img src="images/logo.png" alt="logo" />
+        </div>
+      <!-- </div> -->
+      <div class="logo_container">
+          <h3>SERVE BY SMART FOOD DELIVERY</h3>
+      </div>
+      
+        <div class="bar_icon">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- Menu Section -->
+
+  <header class="menu-container">
+    <!-- Banner -->
+  </header>
+
+  <h1>Our Delicious Menu</h1>
+  <div class="menu-container">
+    <div class="menu-item">
+      <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D" alt="Pizza">
+      <h4>Pizza</h4>
+      <p>₹ 450/-</p>
+      <button class="buy-btn" onclick="showPaymentPopup()">Buy Now</button>
+    </div>
+    <div class="menu-item">
+      <img src="https://images.pexels.com/photos/1199957/pexels-photo-1199957.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Burger">
+      <h4>Burger</h4>
+      <p>₹ 100/-</p>
+      <button class="buy-btn" onclick="showPaymentPopup()">Buy Now</button>
+    </div>
+     
+    <div class="menu-item">
+      <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Burger">
+      <h4>Pan Cakes</h4>
+      <p>₹ 150/-</p>
+      <button class="buy-btn" onclick="showPaymentPopup()">Buy Now</button>
+    </div>
+     
+    <div class="menu-item">
+      <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8fA%3D%3D" alt="Burger">
+      <h4>Cake</h4>
+      <p>₹ 200/-</p>
+      <button class="buy-btn" onclick="showPaymentPopup()">Buy Now</button>
+    </div>
+     
+    <div class="menu-item">
+      <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8fHw%3D" alt="Burger">
+      <h4>French Toast</h4>
+      <p>₹ 250/-</p>
+      <button class="buy-btn" onclick="showPaymentPopup()">Buy Now</button>
+    </div>
+     
+    <div class="menu-item">
+      <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjB8fHxlbnwwfHx8fHw%3D" alt="Burger">
+      <h4>Ice Cream</h4>
+      <p>₹ 200/-</p>
+      <button class="buy-btn" onclick="showPaymentPopup()">Buy Now</button>
+    </div>
+     
+    <div class="menu-item">
+      <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mjd8fHxlbnwwfHx8fHw%3D" alt="Burger">
+      <h4>Curry</h4>
+      <p>₹ 150/-</p>
+      <button class="buy-btn" onclick="showPaymentPopup()">Buy Now</button>
+    </div>
+    
+    <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTd8fHxlbnwwfHx8fHw%3D" alt="Burger">
+        <h4>Pasta</h4>
+        <p>₹ 200/-</p>
+        <button class="buy-btn" onclick="showPaymentPopup()">Buy Now</button>
+      </div>
+     
+       
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1609951651556-5334e2706168?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzF8fHxlbnwwfHx8fHw%3D" alt="Burger">
+        <h4>Cocktail</h4>
+        <p>₹ 200/-</p>
+        <button class="buy-btn" onclick="showPaymentPopup()">Buy Now</button>
+      </div>
+     
+       
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NTl8fHxlbnwwfHx8fHw%3D" alt="Burger">
+        <h4>Cold Coffee</h4>
+        <p>₹ 250/-</p>
+        <button class="buy-btn" onclick="showPaymentPopup()">Buy Now</button>
+      </div>
+
+    </div>
+    
+    <footer>
+        <div class="footer_container container">
+          <div class="footer_logo">
+            <img src="images/logo.png" alt="logo" />
+          </div>
+          <div class="link_lists">
+            <h3 >Main Links</h3>
+            <ul>
+              <li>Order Tracking</li>
+              <li>New Order</li>
+              <li>Contact Us</li>
+              <li>News & Blogs</li>
+            </ul>
+          </div>
+          <div class="link_lists">
+            <h3>Support</h3>
+            <ul>
+              <li>About Us</li>
+              <li>Privacy Policy</li>
+              <li>Terms & Conditons</li>
+            </ul>
+          </div>
+          <div class="news_letter">
+            <h3>Support</h3>
+            <input type="email" placeholder="Enter your Email..." />
+            <h3>Follow Us</h3>
+            <div class="icon_container">
+              <div class="icon">
+                <i class="fa fa-facebook"></i>
+              </div>
+              <div class="icon">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </div>
+              <div class="icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </div>
+              <div class="icon">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    
+    <!-- Payment Popup -->
+    <div class="payment-popup" id="paymentPopup">
+        <div class="payment-popup-content">
+            <span class="close-btn" onclick="hidePaymentPopup()">Close &times;</span>
+            <h3>Select Payment Method</h3>
+            <p>Choose your preferred payment method:</p>
+            <button class="payment-btn" onclick="payWithCash()">Cash</button>
+            <button class="payment-btn" onclick="payWithCard()">Card</button>
+        </div>
+    </div>
+
+    <!-- Timer Popup -->
+    <div class="payment-popup" id="timerPopup">
+        <div class="payment-popup-content">
+            <span class="close-btn" onclick="hideTimerPopup()">Close &times;</span>
+            <h3>Please wait</h3>
+            <p>Your payment is in progress...</p>
+            <div class="timer" id="timer">5</div>
+        </div>
+    </div>
+
+    <!-- Success Popup -->
+    <div class="payment-popup" id="successPopup">
+        <div class="payment-popup-content">
+            <span class="close-btn" onclick="hideSuccessPopup()">Close &times;</span>
+            <h3 id="successMessage"></h3>
+        </div>
+    </div>
+
+    <script>
+        function showPaymentPopup() {
+            document.getElementById("paymentPopup").style.display = "flex";
+        }
+
+        function hidePaymentPopup() {
+            document.getElementById("paymentPopup").style.display = "none";
+        }
+
+        function payWithCash() {
+            hidePaymentPopup();
+            showSuccessPopup("Payment Successful. Enjoy your meal!");
+        }
+
+        function payWithCard() {
+            hidePaymentPopup();
+            showTimerPopup();
+            startTimer();
+        }
+
+        function showTimerPopup() {
+            document.getElementById("timerPopup").style.display = "flex";
+        }
+
+        function hideTimerPopup() {
+            document.getElementById("timerPopup").style.display = "none";
+        }
+
+        function startTimer() {
+            let timeLeft = 5;
+            const timerElement = document.getElementById("timer");
+            const timerInterval = setInterval(() => {
+                timeLeft--;
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    hideTimerPopup();
+                    showSuccessPopup("Payment Successful. Enjoy your meal!");
+                } else {
+                    timerElement.textContent = timeLeft;
+                }
+            }, 1000);
+        }
+
+        function showSuccessPopup(message) {
+            document.getElementById("successMessage").innerText = message;
+            document.getElementById("successPopup").style.display = "flex";
+        }
+
+        function hideSuccessPopup() {
+            document.getElementById("successPopup").style.display = "none";
+        }
+    </script>
+</body>
+</html>
